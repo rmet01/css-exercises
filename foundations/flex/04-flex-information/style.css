@@ -3,13 +3,34 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
 }
+
+
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+}
+
+.imagecontainer{
+  margin-top: 32px;
+  display:flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.textcontainer{
+  display:flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.text{
+  flex-basis: 200px;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
